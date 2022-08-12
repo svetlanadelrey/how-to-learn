@@ -58,10 +58,10 @@
 .header__main-illustration {
   position: absolute;
   width: 765px;
-  height: 608px;
   right: 0;
   bottom: 0;
   z-index: 1;
+  object-fit: contain;
 }
 
 .header__square-pic {
@@ -103,7 +103,7 @@
   margin-bottom: 0;
 }
 
-.span-accent {
+.two-columns__span-accent {
   font-size: 24px;
   line-height: 34px;
   font-weight: 600;
@@ -173,7 +173,7 @@
 
 /* feynman */
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background-image: url("../images/feynman.png");
   background-color: #f2f2f2;
