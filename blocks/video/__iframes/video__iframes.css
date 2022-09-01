@@ -1,12 +1,8 @@
 .video__iframes {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  bottom: 0;
-  right: 0;
   width: 1050px;
   height: 316px;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
